@@ -1,4 +1,5 @@
 import React from 'react'
+import pic from "../../public/Man.avif.png"
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
@@ -34,7 +35,7 @@ function Contact() {
 
           <div className="form flex flex-col-reverse justify-center md:flex-row md:justify-end items-center md:gap-10">
             <div className="img  justify-center items-center flex ">
-              <img className='h-[80%] shadow-lg shadow-gray-800 md:h-[70%] md:block' src="../../public/Man.avif" alt="" />
+              <img className='h-[80%] shadow-lg shadow-gray-800 md:h-[70%] md:block' src={pic} alt="" />
             </div>
             <div className="bg-slate-950 w-[100%] md:w-[50%] p-5 rounded-2xl mt-5">
               <h1 className='mb-3 text-lg'>Send Your Message</h1>
