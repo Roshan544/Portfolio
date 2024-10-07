@@ -1,5 +1,5 @@
 import React from 'react'
-import x from '../../public/x-1.png'
+import x from '../../public/X.png'
 import SPC from '../../public/SPC-1.png'
 import RCS from '../../public/Dashboard Page.png'
 import NC from '../../public/Netflix Clone - 1.png'
