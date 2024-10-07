@@ -53,7 +53,7 @@ function Home() {
                                             <FaLinkedin size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-600' /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instgram.com/roshan._.0707_" target='_blank'>
+                                        <a href="https://www.instagram.com/roshan._.0707_" target='_blank'>
                                             <FaInstagramSquare size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-800' /></a>
                                     </li>
                                 </ul>
