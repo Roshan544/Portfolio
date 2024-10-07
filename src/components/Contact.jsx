@@ -55,8 +55,8 @@ function Contact() {
                   <textarea
                     className='min-w-[100%] my-1 rounded-xl px-3 py-1 outline-none bg-slate-900 text-white h-[20vh] w-[30vw]' type="text" name='message' id='message' required placeholder='Enter Your Message' />
                 </div>
+                <button className='flex px-5 py-2 mt-4 border justify-center items-center bg-slate-900 hover:bg-red-500 rounded-3xl border-none' type='submit'>Submit</button>
               </form>
-              <button className='flex px-5 py-2 mt-4 border justify-center items-center bg-slate-900 hover:bg-red-500 rounded-3xl border-none' type='submit'>Submit</button>
             </div>
           </div>
         </div>
