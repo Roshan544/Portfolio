@@ -16,7 +16,7 @@ function Footer() {
                             <FaFacebook size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
                         <a href="https://github.com/Roshan544" target='_blank'>
                             <FaGithub size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
-                        <a href="https://www.instgram.com/roshan._.0707_" target='_blank'>
+                        <a href="https://www.instagram.com/roshan._.0707_" target='_blank'>
                             <FaInstagramSquare size={25} className='rounded-full hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
                         <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target='_blank'>
                             <FaLinkedin size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
