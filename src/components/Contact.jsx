@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
@@ -33,8 +34,9 @@ function Contact() {
           <p className='text-xs md:text-sm opacity-80 justify-center items-center'>Please fill out the form below to contact me.</p>
 
           <div className="form flex flex-col-reverse justify-center md:flex-row md:justify-end items-center md:gap-10">
-            <div className="bg-slate-950 w-[100%] md:w-[50vw] p-5 rounded-2xl mt-5">
-              <h1 className='mb-3 text-lg'>Send Your Message</h1>
+
+            <div className="w-[100%] md:w-[50vw] p-5 rounded-2xl mt-5 flex flex-col justify-center items-center">
+              <h1 className='mb-3 text-base opacity-70'>Send Your Message</h1>
               <form
                 ref={form} onSubmit={sendEmail}
                 className='flex flex-col'>
@@ -50,11 +52,11 @@ function Contact() {
                 </div>
                 <div className="message flex flex-col">
                   <label>Message</label>
-                  <input
-                    className='min-w-[100%] my-1 rounded-xl px-3 py-1 outline-none bg-slate-900 text-white' type="text" name='message' id='message' required placeholder='Enter Your Message' />
-                  <button className='mt-4 border w-[30%] justify-center items-center' type='submit'>Submit</button>
+                  <textarea
+                    className='min-w-[100%] my-1 rounded-xl px-3 py-1 outline-none bg-slate-900 text-white h-[20vh] w-[30vw]' type="text" name='message' id='message' required placeholder='Enter Your Message' />
                 </div>
               </form>
+              <button className='flex px-5 py-2 mt-4 border justify-center items-center bg-slate-900 hover:bg-red-500 rounded-3xl border-none' type='submit'>Submit</button>
             </div>
           </div>
         </div>
