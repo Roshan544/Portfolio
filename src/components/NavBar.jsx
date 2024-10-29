@@ -1,9 +1,14 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import pic from "../../public/Roshan_Yadav.png"
+import pic from "../../public/img/Roshan_yadav.webp"
 import { useState } from 'react';
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
+// import {pdf} from "../../public/Roshan_Yadav_Resume.pdf"
+
+
+
+
 
 function NavBar() {
     const [menu, setmenu] = useState(true)
@@ -58,7 +63,7 @@ function NavBar() {
                                 activeClass="active"
                             >Contact</Link></li>
                     </ul>
-                    <a href="https://drive.google.com/file/d/1qP8WIEph0TMbbuBZFiLth4uP05u4hPgd/view?usp=sharing" target='_blank'><button
+                    <a href="https://drive.google.com/file/d/1qP8WIEph0TMbbuBZFiLth4uP05u4hPgd/view?usp=drive_link" target='_blank'><button
                         className='border px-2 py-1 rounded-full hover:cursor-pointer hover:scale-105 duration-150 hover:bg-red-600'>Resume</button></a>
                 </div>
                 <div className="menu flex flex-col md:hidden px-4" onClick={() => setmenu(!menu)}>{menu ? <TiThMenu size={30} /> : <IoClose size={30} />}
@@ -101,7 +106,7 @@ function NavBar() {
                                 offset={-70}
                                 activeClass="active"
                             >Contact</Link></li>
-                        <a href="https://drive.google.com/file/d/1qP8WIEph0TMbbuBZFiLth4uP05u4hPgd/view?usp=sharing" target='_blank'><button
+                        <a href="https://drive.google.com/file/d/1qP8WIEph0TMbbuBZFiLth4uP05u4hPgd/view?usp=drive_link" target='_blank'><button
                             className='border px-2 py-1 rounded-full hover:cursor-pointer hover:scale-105 duration-150 hover:bg-red-600'>Resume</button></a>
                     </ul>
 
