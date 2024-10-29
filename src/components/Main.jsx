@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
-import pic from "../../public/Roshan_Yadav.png"
+import pic from "../../public/img/Roshan_Yadav.webp"
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -53,7 +53,7 @@ function Home() {
                                             <FaLinkedin size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-600' /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/roshan._.0707_" target='_blank'>
+                                        <a href="https://www.instagram.com/roshan._.0707_/" target='_blank'>
                                             <FaInstagramSquare size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-800' /></a>
                                     </li>
                                 </ul>
@@ -74,6 +74,8 @@ function Home() {
                     <img className='rounded-full h-[85%]' src={pic} alt="" /></div>
 
             </div>
+            {/* <div className=''><hr /></div> */}
+
         </>
     )
 }
