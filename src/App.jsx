@@ -6,6 +6,7 @@ import Project from './components/Project'
 import Contact from './components/Contact'
 import {Toaster} from 'react-hot-toast'
 import Footer from './components/Footer'
+import WhatsApp from "./components/WhatsApp"
 import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Contact />
         <Toaster />
         <Footer />
+        <WhatsApp />
       </div>
       <Toaster />
     </>
