@@ -63,7 +63,7 @@ function NavBar() {
                                 activeClass="active"
                             >Contact</Link></li>
                     </ul>
-                    <a href="https://drive.google.com/file/d/12Iy3FE6PihXesqngcH7wk_QiqoSTciFF/view" target='_blank'><button
+                    <a href="https://drive.google.com/file/d/1qP8WIEph0TMbbuBZFiLth4uP05u4hPgd/view?usp=drive_link" target='_blank'><button
                         className='border px-2 py-1 rounded-full hover:cursor-pointer hover:scale-105 duration-150 hover:bg-red-600'>Resume</button></a>
                 </div>
                 <div className="menu flex flex-col md:hidden px-4" onClick={() => setmenu(!menu)}>{menu ? <TiThMenu size={30} /> : <IoClose size={30} />}
