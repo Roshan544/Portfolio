@@ -11,10 +11,10 @@ const WhatsAppIcon = () => {
         target="_blank"
         rel="noopener noreferrer"
         title="Chat with us on WhatsApp"
-        className="flex items-center justify-center w-16 h-16 bg-green-500 text-white rounded-full shadow-md hover:bg-green-600"
+        className="flex items-center justify-center w-12 h-12 bg-green-500 text-white rounded-full shadow-md hover:bg-green-600"
       >
         {/* <i className="fab fa-whatsapp fa-2x"></i> */}
-        <FaWhatsapp size={25} className='hover:cursor-pointer hover:scale-125 duration-150 hover:text-blue-900' />
+        <FaWhatsapp size={30} className='hover:cursor-pointer hover:scale-125 duration-150 hover:text-blue-900' />
       </a>
     </div>
   );
