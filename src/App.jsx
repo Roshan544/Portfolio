@@ -2,6 +2,7 @@ import { useState } from 'react'
 import NavBar from './components/NavBar'
 import Home from './components/Main'
 import About from './components/About'
+import Experience from './components/Experience'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import {Toaster} from 'react-hot-toast'
@@ -18,6 +19,7 @@ function App() {
         <NavBar />
         <Home />
         <About />
+        <Experience />
         <Project />
         <Contact />
         <Toaster />
