@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import pic from "../../public/img/Roshan_yadav.webp"
+import pic from "../../public/img/Roshan_Yadav.webp"
 import { useState } from 'react';
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
