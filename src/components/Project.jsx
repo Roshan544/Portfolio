@@ -1,4 +1,6 @@
 import React from 'react'
+import VoxNova from '../../public/img/VoxNova.webp'
+import Concept_Co from '../../public/img/Concept Co.webp'
 import x from '../../public/img/X.webp'
 import SPC from '../../public/img/SPC-1.webp'
 import RCS from '../../public/img/Dashboard Page.webp'
@@ -15,6 +17,14 @@ function Project() {
              className="project flex flex-col justify-center items-center">
                 <h1 className='flex justify-center items-center mb-4 text-2xl hover:scale-125 duration-150 hover:text-red-600 w-[50vw]'>Project</h1>
                 <div className="flex flex-col xl:flex-row xl:flex-wrap justify-center items-center w-[97vw]">
+                    <div className="flex flex-col items-center py-4 w-[90%] h-[100%]  xl:w-[30%] xl:px-14 hover:scale-95 border-b-2 xl: border-none mb-2 xl:mb-5 gap-5">
+                        <a href="https://www.voxnova.digital/" target='_blank'><img className='w-[100%] h-[100%] mb-2' src={VoxNova} alt="" />
+                        <p className='flex justify-center'>VoxNova</p></a>
+                    </div>
+                    <div className="flex flex-col items-center py-4 w-[90%] h-[100%]  xl:w-[30%] xl:px-14 hover:scale-95 border-b-2 xl: border-none mb-2 xl:mb-5 gap-5">
+                        <a href="https://www.conceptco.co/" target='_blank'><img className='w-[100%] h-[100%] mb-2' src={Concept_Co} alt="" />
+                        <p className='flex justify-center'>Concept Co</p></a>
+                    </div>
                     <div className="flex flex-col items-center py-4 w-[90%] h-[100%]  xl:w-[30%] xl:px-14 hover:scale-95 border-b-2 xl: border-none mb-2 xl:mb-5 gap-5">
                         <a href="https://github.com/Roshan544/X.com-Clone" target='_blank'><img className='w-[100%] h-[100%] mb-2' src={x} alt="" />
                         <p className='flex justify-center'>Twitter Clone</p></a>
@@ -39,10 +49,10 @@ function Project() {
                         <a href="https://github.com/Roshan544/Rock_Paper_Sscisscors" target='_blank'><img className='w-[100%] h-[100%] mb-2' src={RPS} alt="" />
                         <p className='flex justify-center'>Rock Paper Scissors</p></a>
                     </div>
-                    <div className="flex flex-col items-center py-4 w-[90%] h-[100%]  xl:w-[30%] xl:px-14 hover:scale-95 border-b-2 xl: border-none mb-2 xl:mb-5 gap-5">
+                    {/* <div className="flex flex-col items-center py-4 w-[90%] h-[100%]  xl:w-[30%] xl:px-14 hover:scale-95 border-b-2 xl: border-none mb-2 xl:mb-5 gap-5">
                         <a href="https://github.com/Roshan544/Currency-Converter" target='_blank'><img className='w-[100%] h-[100%] mb-2' src={CC} alt="" />
                         <p className='flex justify-center'>Currency Converter</p></a>
-                    </div>
+                    </div> */}
                     <div className="flex flex-col items-center py-4 w-[90%] h-[100%]  xl:w-[30%] xl:px-14 hover:scale-95 border-b-2 xl: border-none mb-2 xl:mb-5 gap-5">
                         <a href="https://github.com/Roshan544/Amazon-Clone" target='_blank'><img className='w-[100%] h-[100%] mb-2' src={AC} alt="" />
                         <p className='flex justify-center'>Amazon Clone</p></a>
