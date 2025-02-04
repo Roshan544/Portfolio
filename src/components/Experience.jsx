@@ -8,9 +8,9 @@ function Experience() {
         >
 
         <div className="Exp" >
-          <h1 className="flex justify-center text-2xl mb-3 hover:scale-125 duration-150 hover:text-red-600">
+          <h2 className="flex justify-center text-2xl mb-3 hover:scale-125 duration-150 hover:text-red-600">
           Experience
-          </h1>
+          </h2>
           <table className="flex flex-row justify-between mx-3 m-7 w-auto md:w-[150vh] bg-gray-900">
             <tbody className="">
               <tr className="text-sm flex flex-col gap-0 md:flex-row md:gap-20  px-5 mb-2 mx-4 md:mx-2 border py-3 ">
@@ -27,7 +27,7 @@ function Experience() {
                   </span>
                 </td>
                 <td className="flex flex-col mt-2 md:w-[15%]">
-                  <a href="https://www.conceptco.co/">Company URL</a>
+                  <a href="https://www.conceptco.co/" title="Concept Co">Company URL</a>
                 </td>
               </tr>
             </tbody>
