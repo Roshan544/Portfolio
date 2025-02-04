@@ -23,11 +23,11 @@ function NavBar() {
                 ><div className="logo hover:cursor-pointer">
                         <div className='flex gap-2'>
                             {/* <img className='h-12 w-15 rounded-full' src={pic} alt="" /> */}
-                            <div className="info flex flex-col justify-center items-start pl-14 pt-2">
+                            <div className="info flex flex-col justify-center items-start md:pl-14 pt-2">
                                 <h2 className='text-xl font-semibold'>Roshan Yadav</h2>
                                 <p className='text-sm opacity-80'>
                                     <span className='text-green-500 font-semibold text-lg'>&lt;</span>
-                                    Web Developer & UI/UX Designer
+                                    Web Developer
                                     <span className='text-green-500 font-semibold text-lg'>/&gt;</span>
                                 </p>
                             </div>
