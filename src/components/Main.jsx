@@ -14,12 +14,15 @@ import { FaReact } from "react-icons/fa";
 function Home() {
     return (
         <>
+            {/* Preload LCP Image */}
+            <link rel="preload" as="image" href={pic} />
+
             <div name="Home"
             className=' bg-black text-white flex flex-col-reverse md:flex-row h-[50] my-16 px-10 gap-5 md:px-24'>
                 <div className="left md:w-1/2 w-full flex flex-col justify-center">
                     <div className="info">
-                        <h2 className='text-3xl md:text-4xl'>Hello World, <ReactTyped
-                            className='text-red-500 text-2xl'
+                        <h2 className='text-xl md:text-4xl'>Hello World, <ReactTyped
+                            className='text-red-500 text-xl md:text-4xl'
                             strings={[
                                 "Coder",
                                 "Developer",
@@ -30,7 +33,7 @@ function Home() {
                             backSpeed={50}
                             loop
                         >
-                            <input type="button" className='bg-black text-red-500 text-4xl'/>
+                            <input type="button" className='bg-black text-red-500' />
                         </ReactTyped>
                         </h2>
                         <p className='text-xl md:text-xl py-3'>Welcome To My Profile...</p>
@@ -71,8 +74,15 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="right md:w-1/2 w-full flex justify-center items-center mt-2">
-                    <img title='Profile Images' className='rounded-full h-[85%]' src={pic} alt="Roshan Yadav" /></div>
+                <div className="right md:w-1/2 w-full flex justify-center items-center mt-6 md:mt-2">
+                    <img 
+                    src={pic} 
+                    alt="Roshan Yadav" 
+                    className='rounded-full h-[85%]' 
+                    fetchpriority="high"
+                    title='Profile Images' 
+                    />
+                    </div>
 
             </div>
             {/* <div className=''><hr /></div> */}
