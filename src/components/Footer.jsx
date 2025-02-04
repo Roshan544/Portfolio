@@ -10,7 +10,7 @@ function Footer() {
     return (
         <>
             <div className="footer flex justify-center opacity-80">
-                <div className="flex flex-col mt-24">
+                <div className="flex flex-col mt-14">
                     <div className="img flex justify-center space-x-3">
                         <a href="https://www.facebook.com/profile.php?id=100014189131444" target='_blank'>
                             <FaFacebook size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
@@ -25,7 +25,7 @@ function Footer() {
                     <div className="copy flex justify-center items-center mt-8">
                         <FaRegCopyright size={20} className='pr-1' />2024 . All right reserved
                     </div>
-                    <div className='flex justify-center items-center text-base mb-8'> Created with <img className='w-4 mx-2' src="/heart.svg" alt="" /> by Roshan Yadav</div>
+                    <div className='flex justify-center items-center text-base mb-8'> Created with <img title='Heart' className='w-4 mx-2' src="/heart.svg" alt="heart" /> by Roshan Yadav</div>
                 </div>
             </div >
 
