@@ -28,15 +28,15 @@ function Contact() {
   return (
     <>
       <div name="Contact"
-        className="contact flex justify-center mt-5">
+        className="contact flex justify-center mt-5 pt-5">
         <div className='flex flex-col justify-center items-center w-[80vw] h-auto'>
-          <h1 className='text-lg hover:scale-125 duration-150 hover:text-red-600'>Contect Me</h1>
+          <h2 className='text-lg hover:scale-125 duration-150 hover:text-red-600'>Contect Me</h2>
           <p className='text-xs md:text-sm opacity-80 justify-center items-center'>Please fill out the form below to contact me.</p>
 
           <div className="form flex flex-col-reverse justify-center md:flex-row md:justify-end items-center md:gap-10">
 
             <div className="w-[100%] md:w-[50vw] p-5 rounded-2xl mt-5 flex flex-col justify-center items-center">
-              <h1 className='mb-3 text-base opacity-70'>Send Your Message</h1>
+              <h3 className='mb-3 text-base opacity-70'>Send Your Message</h3>
               <form
                 ref={form} onSubmit={sendEmail}
                 className='flex flex-col'>
