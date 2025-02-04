@@ -18,22 +18,23 @@ function Home() {
             className=' bg-black text-white flex flex-col-reverse md:flex-row h-[50] my-16 px-10 gap-5 md:px-24'>
                 <div className="left md:w-1/2 w-full flex flex-col justify-center">
                     <div className="info">
-                        <p className='text-xl md:text-xl py-1'>Welcome To My Profile...</p>
-                        <h2 className='text-3xl md:text-4xl'>Hello , <ReactTyped
+                        <h2 className='text-3xl md:text-4xl'>Hello World, <ReactTyped
                             className='text-red-500 text-2xl'
                             strings={[
                                 "Coder",
                                 "Developer",
+                                "Designer",
                                 "I'm Roshan",
                             ]}
                             typeSpeed={40}
                             backSpeed={50}
                             loop
                         >
-                            <input type="button" className='bg-black text-red-500' />
+                            <input type="button" className='bg-black text-red-500 text-4xl'/>
                         </ReactTyped>
                         </h2>
-                        <p className='text-sm mt-5 text-justify'>I am Roshan Yadav, a dedicated web developer specializing in creating high-performance, responsive websites. With a strong foundation in front-end technologies such as HTML, CSS, JavaScript, and frameworks like React and Tailwind CSS, I focus on delivering user-centric solutions that are both functional and visually appealing. I am committed to continuously enhancing my expertise in web development to ensure seamless and efficient digital experiences. Let’s discuss how I can contribute to your next project.</p>
+                        <p className='text-xl md:text-xl py-3'>Welcome To My Profile...</p>
+                        <span className='text-sm mt-2 text-justify block'><h1 className='inline-block'>I am an enthusiastic Web Developer,</h1> specializing in creating high-performance, responsive websites. With a strong foundation in front-end technologies such as HTML, CSS, JavaScript, PHP, MySQL, Figma, Framer and frameworks like React, Laravel and Tailwind CSS, I focus on delivering user-centric solutions that are both functional and visually appealing. I am committed to continuously enhancing my expertise in web development to ensure seamless and efficient digital experiences. Let’s discuss how I can contribute to your next project.</span>
                     </div>
                     <div className="icons md:flex md:justify-between mt-8 px-5">
                         <div className="social flex flex-col items-center">
@@ -41,19 +42,19 @@ function Home() {
                             <div className="img">
                                 <ul className='flex space-x-3 py-1'>
                                     <li>
-                                        <a href="https://github.com/Roshan544" target='_blank' alt='Github'>
+                                        <a href="https://github.com/Roshan544" target='_blank' alt='Github' title='Github'>
                                             <FaGithub size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-red-400' /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/profile.php?id=100014189131444" target='_blank' alt='Facebook'>
+                                        <a href="https://www.facebook.com/profile.php?id=100014189131444" target='_blank' alt='Facebook' title='Facebook'>
                                             <FaFacebook size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target='_blank' alt='Linkedin'>
+                                        <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target='_blank' alt='Linkedin' title='Linkedin'>
                                             <FaLinkedin size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-600' /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/roshan._.0707_/" target='_blank' alt='Instagram'>
+                                        <a href="https://www.instagram.com/roshan._.0707_/" target='_blank' alt='Instagram' title='Instagram'>
                                             <FaInstagramSquare size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-800' /></a>
                                     </li>
                                 </ul>
@@ -70,8 +71,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="right md:w-1/2 w-full flex justify-center items-center mt-5">
-                    <img className='rounded-full h-[85%]' src={pic} alt="" /></div>
+                <div className="right md:w-1/2 w-full flex justify-center items-center mt-2">
+                    <img title='Profile Images' className='rounded-full h-[85%]' src={pic} alt="Roshan Yadav" /></div>
 
             </div>
             {/* <div className=''><hr /></div> */}
