@@ -21,7 +21,7 @@ function Home() {
             className=' bg-black text-white flex flex-col-reverse md:flex-row h-[50] my-16 px-10 gap-5 md:px-24'>
                 <div className="left md:w-1/2 w-full flex flex-col justify-center">
                     <div className="info">
-                        <h2 className='text-xl md:text-4xl'>Hello World, <ReactTyped
+                        <h2 className='text-xl md:text-4xl'>Hello, <ReactTyped
                             className='text-red-500 text-xl md:text-4xl'
                             strings={[
                                 "Coder",
