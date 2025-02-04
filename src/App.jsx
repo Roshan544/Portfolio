@@ -18,8 +18,8 @@ function App() {
       <div>
         <NavBar />
         <Home />
-        <About />
         <Experience />
+        <About />
         <Project />
         <Contact />
         <Toaster />
