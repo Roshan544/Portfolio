@@ -19,20 +19,21 @@ function NavBar() {
                     smooth={true}
                     duration={500}
                     activeClass="active"
-                ><div className="logo">
+                    title='Home'
+                ><div className="logo hover:cursor-pointer">
                         <div className='flex gap-2'>
-                            <img className='h-12 w-15 rounded-full' src={pic} alt="" />
-                            <div className="info flex flex-col justify-center items-center">
+                            {/* <img className='h-12 w-15 rounded-full' src={pic} alt="" /> */}
+                            <div className="info flex flex-col justify-center items-start pl-14 pt-2">
                                 <h2 className='text-xl font-semibold'>Roshan Yadav</h2>
                                 <p className='text-sm opacity-80'>
                                     <span className='text-green-500 font-semibold text-lg'>&lt;</span>
-                                    Web Developer
+                                    Web Developer & UI/UX Designer
                                     <span className='text-green-500 font-semibold text-lg'>/&gt;</span>
                                 </p>
                             </div>
                         </div>
                     </div></Link>
-                <div className="ul hidden md:flex gap-3 items-center">
+                <div className="ul hidden md:flex gap-3 items-center pr-11">
                     <ul className='flex gap-4'>
                         <li className='hover:cursor-pointer hover:scale-105 duration-150 hover:text-red-600'>
                             <Link to="Home"
@@ -63,8 +64,8 @@ function NavBar() {
                                 activeClass="active"
                             >Contact</Link></li>
                     </ul>
-                    <a href="https://drive.google.com/file/d/12Iy3FE6PihXesqngcH7wk_QiqoSTciFF/view" target='_blank'><button
-                        className='border px-2 py-1 rounded-full hover:cursor-pointer hover:scale-105 duration-150 hover:bg-red-600'>Resume</button></a>
+                    <a href="https://drive.google.com/file/d/12Iy3FE6PihXesqngcH7wk_QiqoSTciFF/view" target='_blank' title='Resume'><button
+                        className='border px-2 py-1 rounded-full hover:cursor-pointer hover:scale-105 duration-150 bg-red-600'>Resume</button></a>
                 </div>
                 <div className="menu flex flex-col md:hidden px-4" onClick={() => setmenu(!menu)}>{menu ? <TiThMenu size={30} /> : <IoClose size={30} />}
                 </div>
@@ -106,7 +107,7 @@ function NavBar() {
                                 offset={-70}
                                 activeClass="active"
                             >Contact</Link></li>
-                        <a href="https://drive.google.com/file/d/12Iy3FE6PihXesqngcH7wk_QiqoSTciFF/view" target='_blank'><button
+                        <a href="https://drive.google.com/file/d/12Iy3FE6PihXesqngcH7wk_QiqoSTciFF/view" target='_blank' title='Resume'><button
                             className='border px-2 py-1 rounded-full hover:cursor-pointer hover:scale-105 duration-150 hover:bg-red-600'>Resume</button></a>
                     </ul>
 
