@@ -41,7 +41,7 @@ function Home() {
                     </div>
                     <div className="icons md:flex md:justify-between mt-8 px-5">
                         <div className="social flex flex-col items-center">
-                            <h3>Available on</h3>
+                            <p>Available on</p>
                             <div className="img">
                                 <ul className='flex space-x-3 py-1'>
                                     <li>
@@ -64,7 +64,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="lang flex flex-col items-center mt-5 md:mt-0">
-                            <h3>Working On</h3>
+                            <p>Working On</p>
                             <div className="img flex space-x-3 py-1">
                                 <DiMongodb size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-green-800' />
                                 <FaNodeJs size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-green-400' />
@@ -81,6 +81,7 @@ function Home() {
                     className='rounded-full h-[85%]' 
                     fetchpriority="high"
                     title='Profile Images' 
+                    loading="eager"
                     />
                     </div>
 
