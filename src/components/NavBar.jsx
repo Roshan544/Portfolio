@@ -20,6 +20,8 @@ function NavBar() {
                     duration={500}
                     activeClass="active"
                     title='Home'
+                    as="a"
+                    href='/#Home'
                 ><div className="logo hover:cursor-pointer">
                         <div className='flex gap-2'>
                             {/* <img className='h-12 w-15 rounded-full' src={pic} alt="" /> */}
@@ -41,6 +43,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#Home'
                             >Home</Link></li>
                         <li className='hover:cursor-pointer hover:scale-105 duration-150 hover:text-red-600'>
                             <Link to="About"
@@ -48,6 +52,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#About'
                             >About</Link></li>
                         <li className='hover:cursor-pointer hover:scale-105 duration-150 hover:text-red-600'>
                             <Link to="Project"
@@ -55,6 +61,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#Project'
                             >Projects</Link></li>
                         <li className='hover:cursor-pointer hover:scale-105 duration-150 hover:text-red-600'>
                             <Link to="Contact"
@@ -62,6 +70,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#Contact'
                             >Contact</Link></li>
                     </ul>
                     <a href="https://drive.google.com/file/d/12Iy3FE6PihXesqngcH7wk_QiqoSTciFF/view" target='_blank' title='Resume'><button
@@ -82,6 +92,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#Home'
                             >Home</Link></li>
                         <li className='hover:cursor-pointer hover:scale-105 duration-150 hover:text-red-600'>
                             <Link to="About"
@@ -90,6 +102,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#About'
                             >About</Link></li>
                         <li className='hover:cursor-pointer hover:scale-105 duration-150 hover:text-red-600'>
                             <Link to="Project"
@@ -98,6 +112,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#Project'
                             >Projects</Link></li>
                         <li className='hover:cursor-pointer hover:scale-105 duration-150 hover:text-red-600'>
                             <Link to="Contact"
@@ -106,6 +122,8 @@ function NavBar() {
                                 duration={500}
                                 offset={-70}
                                 activeClass="active"
+                                as="a"
+                                href='/#Contact'
                             >Contact</Link></li>
                         <a href="https://drive.google.com/file/d/12Iy3FE6PihXesqngcH7wk_QiqoSTciFF/view" target='_blank' title='Resume'><button
                             className='border px-2 py-1 rounded-full hover:cursor-pointer hover:scale-105 duration-150 hover:bg-red-600'>Resume</button></a>
