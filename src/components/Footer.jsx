@@ -12,13 +12,13 @@ function Footer() {
             <div className="footer flex justify-center opacity-80">
                 <div className="flex flex-col mt-14">
                     <div className="img flex justify-center space-x-3">
-                        <a href="https://www.facebook.com/profile.php?id=100014189131444" target='_blank'>
+                        <a href="https://www.facebook.com/profile.php?id=100014189131444" target='_blank' title='Facebook'>
                             <FaFacebook size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
-                        <a href="https://github.com/Roshan544" target='_blank'>
+                        <a href="https://github.com/Roshan544" target='_blank' title='Github'>
                             <FaGithub size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
-                        <a href="https://www.instgram.com/roshan._.0707_" target='_blank'>
+                        <a href="https://www.instgram.com/roshan._.0707_" target='_blank' title='Instagram'>
                             <FaInstagramSquare size={25} className='rounded-full hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
-                        <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target='_blank'>
+                        <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target='_blank' title='Linkedin'>
                             <FaLinkedin size={25} className='hover:cursor-pointer hover:scale-110 duration-150 hover:text-blue-900' /></a>
                     </div>
                     <div className="hr mt-8 w-[80vw] md:w-[30vw] items-center"><hr /></div>
